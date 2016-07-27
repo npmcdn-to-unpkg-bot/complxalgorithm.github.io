@@ -16,6 +16,15 @@ header {
   float: right;
 }
 
+#conbutton:hover, #formclose:hover {
+  background-color: white;
+  color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
 .white {
   color: white;
 }
