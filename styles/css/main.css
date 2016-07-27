@@ -14,7 +14,10 @@ header {
 
 .btn-home {
   background-color: orange;
-  color: white;
+}
+
+.btn-wordpress {
+  background-color: #B6E3F2;
 }
 
 #intro {
