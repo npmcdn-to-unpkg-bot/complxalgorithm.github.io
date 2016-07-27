@@ -1,5 +1,9 @@
+/*
+The banner code is courtesy of Sten Hougaard (https://github.com/netsi1964)
+*/
+
 #banner {
-  height: 149px;
+  height: 147.5px;
 	width: 149px;
 	overflow:hidden;
 	padding: 0;
@@ -8,7 +12,7 @@
   right: 0px;
   top: 0px;
 }
-		
+
 #banner a {
 	display: block;
 	width: 190px;
