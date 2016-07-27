@@ -37,6 +37,11 @@ header {
   background-color: #B6E3F2;
 }
 
+.btn-social-icon {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
 .btn-social-icon:hover {
   color: #61F2A5;
 }
