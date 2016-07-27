@@ -12,6 +12,10 @@ header {
   font-family: "Monserrat";
 }
 
+#menu {
+  float: left;
+}
+
 .cyan {
   background-color: cyan;
 }

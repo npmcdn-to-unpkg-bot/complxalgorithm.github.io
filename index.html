@@ -20,7 +20,7 @@
   <body>
     <!-- navbar code -->
     <div id="basic" class="dropdown-menu dropdown-anchor-top-left dropdown-has-anchor">
-      <ul>
+      <ul class="dropdown-menu">
         <li><a>Home</a></li>
         <li><a>Projects</a></li>
         <li><a>Philosophy</a></li>
@@ -29,8 +29,8 @@
       </ul>
     </div>
 
-    <button type="button" class="btn btn-default btn-lg" data-dropdown="#basic">
-      <span class="glyphicon glyphicon-th-large"></span>
+    <button id="menu" type="button" class="btn btn-default btn-lg" data-dropdown="#basic">
+      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
     </button>
 
     <!-- Modal -->
