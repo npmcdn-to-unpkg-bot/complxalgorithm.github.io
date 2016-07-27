@@ -16,6 +16,11 @@ header {
   float: left;
 }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../../fonts/glyphicons-halflings-regulat.woff2');
+}
+
 .cyan {
   background-color: cyan;
 }
