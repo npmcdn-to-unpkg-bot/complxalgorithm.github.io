@@ -9,14 +9,26 @@
     <link rel="stylesheet" href="styles/css/main.css" />
     <link rel="stylesheet" href="styles/css/banner.css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/css/jquery.sweet-dropdown.min.css" />
     <link rel="stylesheet" href="styles/css/bootstrap-social.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <script type="text/javascript" src="src/js/jquery.sweet-dropdown.min.js"></script>
   </head>
   <body>
-    <!-- Button trigger modal -->
-    <button id="conbutton" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact</button>
+    <!-- navbar code -->
+    <div id="basic" class="dropdown-menu dropdown-anchor-top-left dropdown-has-anchor">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Philosophy</a></li>
+        <li><a>CV</a></li>
+        <li><button data-target="#myModal">Contact</button></li>
+      </ul>
+    </div>
+    <button data-dropdown="#basic"></button>
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

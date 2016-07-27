@@ -12,15 +12,6 @@ header {
   font-family: "Monserrat";
 }
 
-#conbutton {
-  float: left;
-}
-
-#conbutton:hover, #formclose:hover {
-  background-color: white;
-  color: blue;
-}
-
 .cyan {
   background-color: cyan;
 }
