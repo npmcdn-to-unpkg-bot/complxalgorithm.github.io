@@ -12,12 +12,18 @@ header {
   font-family: "Monserrat";
 }
 
+.white {
+  color: white;
+}
+
 .btn-home {
   background-color: orange;
+  color: white;
 }
 
 .btn-wordpress {
   background-color: #B6E3F2;
+  color: white;
 }
 
 #intro {
