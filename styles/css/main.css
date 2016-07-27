@@ -12,6 +12,10 @@ header {
   font-family: "Monserrat";
 }
 
+#conbutton {
+  float: right;
+}
+
 .white {
   color: white;
 }
