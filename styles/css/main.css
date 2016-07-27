@@ -18,12 +18,14 @@ header {
 
 .btn-home {
   background-color: orange;
-  color: white;
 }
 
 .btn-wordpress {
   background-color: #B6E3F2;
-  color: white;
+}
+
+.btn-social-icon:hover {
+  color: #61F2A5;
 }
 
 #intro {
