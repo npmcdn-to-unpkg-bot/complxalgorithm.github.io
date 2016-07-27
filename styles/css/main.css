@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Harmattan|Montserrat');
+
+/* General layout of website */
+body {
+  background-color: #66D4B8;
+}
+header {
+  color: #42B1D6;
+  text-shadow: 1px 1px 0 rgb(255, 0, 0);
+  font-size: 32px;
+  background-color: #F58711;
+  font-family: "Monserrat";
+}
+
+.btn-home {
+  background-color: orange;
+  color: white;
+}
+
+#intro {
+  padding-top: 35px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Harmattan";
+}
+
+#social {
+  padding-top: 35px;
+}

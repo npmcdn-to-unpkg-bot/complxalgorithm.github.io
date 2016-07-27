@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Harmattan');
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+  background: #b3dced; /* Old browsers */
+  background: -moz-linear-gradient(top,  #b3dced 0%, #29b8e5 50%, #bce0ee 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+}
+
+.page-header {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#intro {
+  top: 100px;
+}
+
+article {
+  top: 5em;
+  background-color: white;
+}
+
+p {
+  font-size: 14;
+  font-family: 'Harmattan', sans-serif;
+}
+
+#social {
+  padding-top: 25px;
+}
