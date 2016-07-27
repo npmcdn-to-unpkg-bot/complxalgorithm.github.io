@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Harmattan|Montserrat');
 
 /* General layout of website */
-body {
-  background-color: #66D4B8;
+#body {
+  background-color: #4DF0A6;
 }
+
 header {
   color: #42B1D6;
   text-shadow: 1px 1px 0 rgb(255, 0, 0);
@@ -62,4 +63,8 @@ p {
 
 #conbutton {
   padding-top: 15px;
+}
+
+#affil {
+  padding-top: 75px;
 }
