@@ -23,10 +23,6 @@ header {
   src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
-.cyan {
-  background-color: cyan;
-}
-
 .white {
   color: white;
 }
@@ -73,4 +69,8 @@ p {
 
 #affil {
   padding-top: 75px;
+}
+
+.un {
+  text-decoration: underline;
 }
