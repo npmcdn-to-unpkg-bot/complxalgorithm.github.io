@@ -63,6 +63,12 @@ p {
 
 #conbutton {
   padding-top: 15px;
+  font-family: "Harmattan";
+}
+
+.dropdown-menu li {
+  font-family: "Harmattan";
+  font-size: 18px;
 }
 
 #affil {
