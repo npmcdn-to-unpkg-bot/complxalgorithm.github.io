@@ -1,5 +1,5 @@
 window.onload = function() {
-  document.getElementById("philobutton").onsubmit = function() {
+  document.getElementById("philo").onsubmit = function() {
     window.location.replace("http://stephensanders.me/philosophy/");
     return false;
   }
