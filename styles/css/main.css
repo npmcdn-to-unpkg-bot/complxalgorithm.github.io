@@ -13,6 +13,11 @@ header {
   font-family: "Monserrat";
 }
 
+h3 {
+  text-decoration: underline;
+  font-family: "Monserrat";
+}
+
 #drop {
   float: left;
 }
@@ -73,4 +78,26 @@ p {
 
 .un {
   text-decoration: underline;
+}
+
+#cbutton {
+  float: right;
+  font-family: "Harmattan";
+}
+
+#mainphilo {
+  padding-top: 15px;
+}
+
+#xpapers_gadget ol {
+  list-style-type: none;
+}
+
+#xpapers_gadget div {
+  display: none;
+}
+
+#philobutton {
+  padding-top: 25px;
+  font-family: "Harmattan";
 }

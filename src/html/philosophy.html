@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>SCS's Philosophy Page</title>
+
+    <link rel="icon" type="image/jpg" href="../../icons/FullSizeRender.jpg" />
+
+    <link rel="stylesheet" href="../../styles/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  </head>
+  <body id="body">
+    <!-- navbar code -->
+    <div id="drop" class="dropdown">
+      <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <i class="glyphicon glyphicon-th-large"></i>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="http://stephensanders.me/projects/" target="_blank">Work</a></li>
+        <li><a href="#" target="_blank">Contemplations</a></li>
+        <li><a href="http://stephensanders.me/chat/" target="_blank">Chat</a></li>
+        <li class="divider"></li>
+        <li><a href="http://kaktusapp.com" target="_blank">Kaktus</a></li>
+        <li><a href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a></li>
+        <li class="divider"></li>
+        <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
+        <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
+      </ul>
+    </div>
+
+    <!-- Trigger button for modal -->
+    <center>
+      <div id="cbutton">
+        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#contactModal">
+          Contact
+        </button>
+      </div>
+    </center>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Wanna Chat?</h4>
+          </div>
+          <div class="modal-body">
+            <center>
+              <p>
+                for programming related inquiries: <a href="mailto:scsandman6496@gmail.com">scsandman6496@gmail.com</a>.
+              </p>
+              <p>
+                for philosophy related inquiries: <a href="mailto:philosowise@gmail.com">philosowise@gmail.com</a>.
+              </p>
+              <p class="text-center">
+                looking forward to hearing from you! :)
+              </p>
+            </center>
+          </div>
+          <div class="modal-footer">
+            <button id="formclose" type="button" class="btn btn-default cyan" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="jumbotron">
+      <h1 class="text-center">Contemplations</h1>
+    </header>
+
+    <h3 class="text-center">Work</h3>
+    <article id="mainphilo" class="text-center">
+      <p>Here are the essays I've written, all of which are on my <a href="http://philpapers.org/profile/207902" target="_blank">PhilPapers profile</a>:</p>
+
+      <div id="xpapers_gadget">
+        Loading papers from Stephen C. Sanders's profile... (Click <a href="http://philpapers.org/profile/207902">here</a> if the papers don't load.)
+      </div>
+    </article>
+
+    <center>
+      <div id="philobutton">
+        <button type="submit" name="philobutton" class="btn btn-default btn-lg philsub">See More</button>
+      </div>
+    </center>
+
+    <script type="text/javascript" src="http://api.philpapers.org/myworks/207902"></script>
+    <script type="text/javascript" src="../js/philo.js"></script>
+  </body>
+</html>
