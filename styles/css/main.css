@@ -44,6 +44,10 @@ h3 {
   background-color: #8CE070;
 }
 
+.btn-upwork:hover {
+  color: #61F2A5;
+}
+
 #upicon {
   color: white;
   font-size: 16px;
@@ -100,10 +104,6 @@ p {
 
 #xpapers_gadget ol {
   list-style-type: none;
-}
-
-#xpapers_gadget div {
-  display: none;
 }
 
 #philobutton {
