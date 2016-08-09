@@ -93,8 +93,14 @@ p {
   text-decoration: underline;
 }
 
+.contact {
+    position: relative;
+}
+
 #cbutton {
-  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   font-family: "Harmattan";
 }
 
