@@ -50,7 +50,7 @@ h3 {
 
 #upicon {
   color: white;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .btn-social-icon {
@@ -80,13 +80,18 @@ p {
   font-family: "Harmattan";
 }
 
+#morelink {
+  padding-top: 35px;
+  font-family: "Harmattan";
+}
+
 .dropdown-menu li {
   font-family: "Harmattan";
   font-size: 18px;
 }
 
 #affil {
-  padding-top: 60px;
+  padding-top: 45px;
 }
 
 .un {
@@ -104,6 +109,17 @@ p {
   font-family: "Harmattan";
 }
 
+#github {
+  padding-top: 25px;
+}
+
+.github-widget {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  font-family: "Harmattan";
+}
+
 #mainphilo {
   padding-top: 15px;
 }
@@ -115,4 +131,33 @@ p {
 #philobutton {
   padding-top: 25px;
   font-family: "Harmattan";
+}
+
+#mepic {
+  position: relative;
+  left: 0;
+  top: 0px;
+  width: 125px;
+  height: 225px;
+}
+
+#meinfo {
+  width: 1125px;
+  float: right;
+}
+
+#stuff {
+  padding-top: 25px;
+}
+
+.stuff {
+  width: 45%;
+  float: right;
+}
+
+#spec {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }

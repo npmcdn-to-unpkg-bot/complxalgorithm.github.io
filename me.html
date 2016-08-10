@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>SCS Facts</title>
+        
+        <meta name="author" content="Stephen C. Sanders">
+        <meta name="description" content="Full Stack Web Developer and college junior based outside of Rochester, NY">
+
+        <link rel="icon" type="image/jpg" href="icons/FullSizeRender.jpg" />
+
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/banner.css" />
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/bootstrap-social.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-77261307-2', 'auto');
+        ga('send', 'pageview');
+
+        </script>
+    </head>
+    
+    <body id="bod">
+        
+        <!-- navbar code -->
+        <div id="drop" class="dropdown">
+        <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <i class="glyphicon glyphicon-th-large"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="menu">
+            <li><a href="../">Home</a></li>
+            <li><a href="#">Me</a></li>
+            <li><a href="http://stephensanders.me/projects/" target="_blank">Work</a></li>
+            <li><a href="philosophy.html">Contemplations</a></li>
+            <li><a href="http://stephensanders.me/chat/" target="_blank">Chat</a></li>
+            <li class="divider"></li>
+            <li><a href="http://kaktusapp.com" target="_blank">Kaktus</a></li>
+            <li><a href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a></li>
+            <li class="divider"></li>
+            <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
+            <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
+        </ul>
+        </div>
+
+        <!-- Trigger button for modal -->
+        <center class="contact">
+            <div id="cbutton">
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#contactModal">
+                    Contact
+                </button>
+            </div>
+        </center>
+        
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Wanna Chat?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <p>
+                                for programming related inquiries: <a href="mailto:scsandman6496@gmail.com">scsandman6496@gmail.com</a>.
+                            </p>
+                            <p>
+                                for philosophy related inquiries: <a href="mailto:philosowise@gmail.com">philosowise@gmail.com</a>.
+                            </p>
+                            <p class="text-center">
+                                looking forward to hearing from you! :)
+                            </p>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="formclose" type="button" class="btn btn-default cyan" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header class="jumbotron">
+            <h1 class="text-center">Me</h1>
+        </header>
+        
+        <div>
+            <img id="mepic" src="icons/moi.jpg" alt="me" />
+            
+            <article id="meinfo" class="text-center">
+                <p>Aye look, that's me.</p>
+                
+                <p>I'm Stephen Sanders, and I'm currently a junior Software Development/Philosophy double major at SUNY College at Brockport.</p>
+                
+                <p>The main activity in which I partake outside of schoolwork is development. I am a Junior Software Developer at Parkplots, LLC and a Developer at Omicron Intereactive.</p>
+                
+                <p>I am also an amateur philosopher. I've written <a href="philosophy.html">some neat stuff</a>.</p>
+            </article>
+            
+            <div id="stuff" class="stuff">
+                <article id="spec">
+                    <p><strong>Specialties</strong>:</p>
+                    <ul style="margin-left: 1em;">
+                        <li><strong>Development</strong>: I mainly develop for the web; my main tools are JavaScript, jQuery, LAMP w/ PHP, and Python w/ Django.</li>
+                        <li><strong>Philosophy</strong>: My writings concern topics such as epistemology (<a href="https://en.wikipedia.org/wiki/Foundationalism#Modest_foundationalism" target="_blank">modest foundationalism</a>), normative ethics, the <a href="https://en.wikipedia.org/wiki/Social_contract" target="_blank">Social Contract Theory</a>, and philosophy of time.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+        
+        <div id="github">
+            <div class="github-widget" data-username="complxalgorithm"></div>
+            <script type="text/javascript" src="https://npmcdn.com/github-card@1.2.1/dist/widget.js"></script>
+        </div>
+        
+        <div id="banner">
+            <a href="https://github.com/complxalgorithm/complxalgorithm.github.io" target="_blank">View me on GitHub</a>
+        </div>
+        
+        <script type="text/javascript" src="src/js/dropdown.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/js" src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
