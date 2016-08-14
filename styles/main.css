@@ -133,6 +133,22 @@ p {
   font-family: "Harmattan";
 }
 
+.navbar {
+  top: -30px;
+  width: 100%;
+}
+
+.navbar-brand {
+  background-color: orange;
+  color: white;
+  width: 12.5%;
+}
+
+.navbar-brand:hover {
+  background-color: white;
+  color: cyan;
+}
+
 #mepic {
   position: relative;
   left: 0;
