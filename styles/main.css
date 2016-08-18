@@ -181,6 +181,7 @@ p {
 
 #projs {
   position: absolute;
+  background-color: white;
   width: 65%;
   left: 225px;
 }
