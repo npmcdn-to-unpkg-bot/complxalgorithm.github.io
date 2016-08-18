@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>SCS's Projects</title>
+      
+        <meta name="author" content="Stephen C. Sanders">
+        <meta name="description" content="Full Stack Web Developer and college junior based outside of Rochester, NY">
+
+        <link rel="icon" type="image/jpg" href="icons/FullSizeRender.jpg" />
+
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/banner.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles/bootstrap-social.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-77261307-2', 'auto');
+        ga('send', 'pageview');
+
+        </script>
+    </head>
+    
+    <body id="body">
+        <!-- navbar code -->
+        <div id="drop" class="dropdown">
+            <button class="btn btn-default btn-lg dropdown-toggle" aria-label="menu" type="button" id="menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <i class="glyphicon glyphicon-th-large"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="me.html">Me</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="philosophy.html">Contemplations</a></li>
+                <li><a href="http://stephensanders.me/chat/" target="_blank">Chat</a></li>
+                <li class="divider"></li>
+                <li><a href="http://kaktusapp.com" target="_blank">Kaktus</a></li>
+                <li><a href="/bookmarx-chrome-extension/" target="_blank">Bookmarx</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www.paypal.me/stephensanders6496" target="_blank">Donate via PayPal</a></li>
+                <li><a href="https://cash.me/$stephencsanders" target="_blank">Donate via Square Cash</a></li>
+            </ul>
+        </div>
+        
+        <!-- Trigger button for modal -->
+        <center class="contact">
+            <div id="cbutton">
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#contactModal">
+                    Contact
+                </button>
+            </div>
+        </center>
+        
+        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Wanna Chat?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <center>
+                            <p>
+                                for programming related inquiries: <a href="mailto:scsandman6496@gmail.com">scsandman6496@gmail.com</a>.
+                            </p>
+                            <p>
+                                for philosophy related inquiries: <a href="mailto:philosowise@gmail.com">philosowise@gmail.com</a>.
+                            </p>
+                            <p class="text-center">
+                                looking forward to hearing from you! :)
+                            </p>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="formclose" type="button" class="btn btn-default cyan" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <header class="jumbotron">
+            <h1 class="text-center">Projects</h1>
+        </header>
+        
+        <div id="projs">
+            <p class="text-center"><strong>Here are some of the things I've worked on, both open and closed source</strong>:</p>
+            <ul>
+                <li>
+                    <a id="name" href="../">This website</a>: I already have a <a href="http://stephensanders.me" target="_blank">personal website</a> that's built with WordPress. I made this website for the sake of being able to customize everything (and really to say that I managed to develop my own website).<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Git</li>
+                        <li><a href="https://pages.github.com" target="_blank">GitHub Pages</a></li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="http://kaktusapp.com" target="_blank">Kaktus</a>: Text-to-document converter web application that I developed for a web programming class that I took in the Spring of 2016. Currently only supports .txt files, but there is continuous development on my part and additional features (e.g., Google Drive &amp; Dropbox support, a lot better support for Word documents and PDFs) should be implemented within the coming months.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>jQuery</li>
+                        <li><a href="https://github.com/eligrey/FileSaver.js" target="_blank">FileSaver.js</a></li>
+                        <li>Google Drive &amp; Dropbox APIs (coming soon)</li>
+                        <li>Git</li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="/bookmarx-chrome-extension/">Bookmarx</a>: Chrome extension that shows every bookmark saved using the extension whenever the user opens a new tab.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li><a href="http://www.typescriptlang.org/" target="_blank">TypeScript</a></li>
+                        <li>AngularJS</li>
+                        <li>Git</li>
+                        <li>Project page hosted by Github Pages</li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="https://github.com/complxalgorithm/shooly" target="_blank">shooly</a>: Simple command line tools that I developed solely because I wanted to get some practice with the command line and shell scripting.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>C</li>
+                        <li>csh/bash</li>
+                        <li><a href="https://en.wikipedia.org/wiki/AWK" target="_blank">Awk</a></li>
+                        <li>Git</li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="https://github.com/complxalgorithm/socko" target="_blank">socko</a>: Native desktop chat application. I developed this because I wanted to learn how to use <a href="http://socket.io/" target="_blank">socket.io</a> and better my ability to use <a href="https://electron.atom.io" target="_blank">Electron</a>.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>AngularJS</li>
+                        <li>Socket.io</li>
+                        <li>Electron</li>
+                        <li>Git</li>
+                        <li>npm</li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="http://ssmatchinggame.site88.net/" target="_blank">Matching Game</a>: Dead simple matching game I developed in a web programming class I took. View it <a href="https://github.com/complxalgorithm/matching-game" target="_blank">on GitHub</a>.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </li><br />
+                <li>
+                    <a id="name" href="http://www.parkplots.com" target="_blank">Parkplots</a>: A mobile application with the intention of easing the process of locating a parking space within a crowded city or at a populous event.<br /><br />
+                    <p id="techused">Technologies Used:</p>
+                    <ul>
+                        <li>HTML5/Sass</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>AngularJS/Ionic</li>
+                        <li>Django</li>
+                        <li>Git</li>
+                        <li>GitLab</li>
+                    </ul>
+                </li><br />
+                <p>More to come...😁</p>
+            </ul>
+        </div>
+        
+        <div id="banner">
+            <a href="https://github.com/complxalgorithm/complxalgorithm.github.io" target="_blank">View me on GitHub</a>
+        </div>
+        
+        <script type="text/javascript" src="src/js/dropdown.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/js" src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        
+        <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '1ee084c4-c04c-4dc0-b0ef-44756eee503a', f: true }); done = true; } }; })();</script>
+    </body>
+</html>
