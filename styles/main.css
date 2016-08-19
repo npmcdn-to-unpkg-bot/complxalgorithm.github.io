@@ -163,13 +163,16 @@ p {
 }
 
 #meinfo {
-  width: 1125px;
-  float: right;
+  position: absolute;
+  width: 550px;
+  left: 25%;
+  top: 225px;
 }
 
 .stuff {
   width: 67.5%;
   float: right;
+  padding-right: 150px;
 }
 
 #spec {
