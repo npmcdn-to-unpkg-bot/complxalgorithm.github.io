@@ -198,3 +198,16 @@ div ul li {
 #techused {
   font-weight: bold;
 }
+
+.nav {
+  float: right;
+}
+
+.nav li {
+  width: 28.5%%;
+}
+
+.nav li:hover {
+  background-color: orange;
+  color: white;
+}

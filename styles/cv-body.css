@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Harmattan|Montserrat');
+
+/* for the cv body */
+body {
+  background-color: #81F0BC;
+}
+
+header {
+  color: #42B1D6;
+  text-shadow: 1px 1px 0 rgb(255, 0, 0);
+  font-size: 32px;
+  background-color: #F58711;
+  font-family: "Monserrat";
+}
+
+.dropdown-menu li {
+  font-family: "Harmattan";
+  font-size: 18px;
+}
+
+.nav-tabs {
+  float: right;
+}
+
+.nav li:hover {
+  background-color: orange;
+}
