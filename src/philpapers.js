@@ -10,7 +10,7 @@ function xpapers_embed_init() {
     arguments.callee.done = true;
     var el = document.getElementById('xpapers_gadget');
     if (el) {
-        el.innerHTML = xpapers_embed_buffer + "<div style='font-size:smaller;padding-top:5px;text-align:center;'>powered by <a href='http://philpapers.org'>PhilPapers</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://philpapers.org/profile/207902/myworks.pl?refresh=1'>Refresh</a>";
+        el.innerHTML = xpapers_embed_buffer + "<div style='font-size:smaller;padding-top:12.5px;padding-right:25px;text-align:center'>powered by <a href='http://philpapers.org'>PhilPapers</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='http://philpapers.org/profile/207902/myworks.pl?refresh=1'>Refresh</a>";
     }
 }
 
