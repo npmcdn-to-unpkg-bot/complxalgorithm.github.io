@@ -112,7 +112,7 @@ p {
 }
 
 #github {
-  padding-top: 25px;
+  padding-top: 62.5px;
 }
 
 .github-widget {
@@ -154,6 +154,10 @@ p {
   color: cyan;
 }
 
+.info {
+  padding-left: 50px;
+}
+
 #mepic {
   position: relative;
   left: 0;
@@ -162,17 +166,19 @@ p {
   height: 225px;
 }
 
-#meinfo {
+.mediv {
   position: absolute;
   width: 550px;
-  left: 25%;
+  left: 32.5%;
   top: 225px;
+  background-color: white;
 }
 
 .stuff {
-  width: 67.5%;
+  width: 100%;
   float: right;
-  padding-right: 150px;
+  padding-top: 15px;
+  padding-right: 25px;
 }
 
 #spec {
@@ -192,6 +198,10 @@ p {
 div ul li {
   list-style-type: none;
   margin-left: 0.25em;
+}
+
+div article ul li {
+  margin-right: 1.25em;
 }
 
 #name {
