@@ -44,6 +44,14 @@ h3 {
   background-color: #8CE070;
 }
 
+.btn-reddit {
+  background-color: #FC4501;
+}
+
+.fa-reddit:hover {
+  background-color: black;
+}
+
 #upicon {
   color: white;
   font-size: 25px;
